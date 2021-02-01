@@ -1,6 +1,11 @@
 # Web-Scraping-Demo
 This is just a demo of "Web Scraping" with Python. 
 
+# Usage
+
+  `python3 scrapper.py visual` - To scrape visually with selenium <br>
+  `python3 scrapper.py headless` - To scrape in shell/commandline only with requests
+
 # How The Script Works
 
 * This script with will scrape https://blog.scrapinghub.com/ recursively. 
@@ -10,7 +15,7 @@ This is just a demo of "Web Scraping" with Python.
 * After collecting all data it will store those data locally in a CSV file called `result.csv`.
 * Then it will create a directory named `data/` under the current directory.
 * Then it will take all the links for the blog posts from `result.csv` file and scrape for the actual "Blog Article" and save it <br> 
-  in `data/` directory with a name `"ACTUAL POST TITLE".txt`
+  in `data/` directory with a name `"ACTUAL-POST-TITLE".txt`
 
 # Module used
 * Requests
