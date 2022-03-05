@@ -30,6 +30,7 @@ This is just a demo of "Web Scraping" with Python.
 
 
 # POC-Proof-of-concept
+![poc](poc.png)
 
 [Visual Scraping](https://youtu.be/bJ00wuIBiWs).
 [headless Scraping](https://youtu.be/yTSb74DRxVY).
